@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="source">
+
+ <!-- <test name="ChromeTest">
+  <parameter name="browser" value="Chrome"/> 
+    <classes>
+       <class name="JIRA_TestSuite.TestSuite" />
+    </classes>
+  </test> -->
+  
+ <test name="FireFoxTest">
+  <parameter name="browser" value="Firefox"/> 
+    <classes>
+       <class name="JIRA_TestSuite.TestSuite" />
+    </classes>
+  </test> 
+  
+
+</suite>

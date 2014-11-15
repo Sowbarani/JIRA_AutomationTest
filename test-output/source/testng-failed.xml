@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [source]">
+  <parameter name="browser" value="Firefox"/>
+  <test name="FireFoxTest(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="JIRA_TestSuite.TestSuite">
+        <methods>
+          <include name="createNewIssue"/>
+          <include name="UpdateIssue"/>
+          <include name="FindIssue"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- JIRA_TestSuite.TestSuite -->
+    </classes>
+  </test> <!-- FireFoxTest(failed) -->
+</suite> <!-- Failed suite [source] -->

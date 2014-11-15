@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="97525" started-at="2014-11-15T14:43:00Z" finished-at="2014-11-15T14:44:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="97525" started-at="2014-11-15T14:43:00Z" finished-at="2014-11-15T14:44:38Z">
+      <class name="JIRA_TestSuite.TestSuite">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:JIRA_TestSuite.TestSuite@3aa7ff2e]" name="setup" is-config="true" duration-ms="23293" started-at="2014-11-15T20:13:00Z" finished-at="2014-11-15T20:13:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createNewIssue()[pri:0, instance:JIRA_TestSuite.TestSuite@3aa7ff2e]" name="createNewIssue" duration-ms="34500" started-at="2014-11-15T20:13:24Z" finished-at="2014-11-15T20:13:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewIssue -->
+        <test-method status="PASS" signature="FindIssue()[pri:0, instance:JIRA_TestSuite.TestSuite@3aa7ff2e]" name="FindIssue" duration-ms="38352" started-at="2014-11-15T20:13:58Z" depends-on-methods="JIRA_TestSuite.TestSuite.createNewIssue" finished-at="2014-11-15T20:14:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FindIssue -->
+        <test-method status="PASS" signature="UpdateIssue()[pri:0, instance:JIRA_TestSuite.TestSuite@3aa7ff2e]" name="UpdateIssue" duration-ms="1364" started-at="2014-11-15T20:14:37Z" depends-on-methods="JIRA_TestSuite.TestSuite.FindIssue" finished-at="2014-11-15T20:14:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateIssue -->
+      </class> <!-- JIRA_TestSuite.TestSuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
