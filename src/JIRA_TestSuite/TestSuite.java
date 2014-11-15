@@ -67,8 +67,8 @@ public class TestSuite {
 		login.clickLogin();		
 		login.clickGoogleSignIn();	
 			
-		login.typeUser(""); // Login with Gmail credentials
-		login.typePasswd("");		
+		login.typeUser("****"); // Login with Gmail credentials
+		login.typePasswd("****");		
 		mainObj = login.clickSignIn();
 			
 		CreateIssue bugObj = mainObj.clickCreate();
