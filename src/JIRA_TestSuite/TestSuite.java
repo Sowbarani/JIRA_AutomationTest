@@ -67,8 +67,8 @@ public class TestSuite {
 		login.clickLogin();		
 		login.clickGoogleSignIn();	
 			
-		login.typeUser("pssowbarani"); // Login with Gmail credentials
-		login.typePasswd("s0wba0328");		
+		login.typeUser(""); // Login with Gmail credentials
+		login.typePasswd("");		
 		mainObj = login.clickSignIn();
 			
 		CreateIssue bugObj = mainObj.clickCreate();
@@ -79,8 +79,8 @@ public class TestSuite {
 		bugObj.typeDescription("This is a test description");
 		bugObj.selectLabel("blue");
 		bugObj.typeStoryPt("3");		
-		//mainObj = bugObj.clickCreate();
-		mainObj = bugObj.clickCancel();		
+		mainObj = bugObj.clickCreate();
+		//mainObj = bugObj.clickCancel();		
 	}
 	
 	//Test to search for an issue in JIRA. Filter's with the below given parameters and displays the result
